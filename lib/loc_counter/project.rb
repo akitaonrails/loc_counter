@@ -7,7 +7,10 @@ module LOCCounter
       '*.{rb,gemspec}',
       '{Cap,Gem,Rake}file',
       'bin/*',
-      '{app,config,lib}/**/*.{gemspec,rake,rb}'
+      '{app,config,lib}/**/*.{gemspec,rake,rb}',
+      'app/assets/**/*.{js,css,sass,coffee}',
+      'app/views/**/*.{html,erb,haml,slim}',
+      'src/**/*.java'
     ]
     
     # @param [String] dir_name Path to the project directory
